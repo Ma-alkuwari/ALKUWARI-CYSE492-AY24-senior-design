@@ -1,12 +1,5 @@
 # CYSE492-AY24-Senior-Design
 
-
-We will build our design project on this gighub repo:   **Adversarial Attack on ASR Models**
-
-https://github.com/hammaad2002/ASRAdversarialAttacks/tree/main
-
-
-
 ### Installation Guide
 
 The following steps have been successful on MacOS Sonoma 14.6.
@@ -37,6 +30,8 @@ The following steps have been successful on MacOS Sonoma 14.6.
    conda activate speech-adv
    ```
 
+   
+
 3. Install dependency packages inside your conda environment. Note that python 3.11 is the version that works for me. Upgrading to a higher python version raised a few incompatibility issues.
 
    ```
@@ -46,6 +41,8 @@ The following steps have been successful on MacOS Sonoma 14.6.
    ```
 
 #### 2. Clone the github repo:
+
+clone the 'ASRAdversarialAttacks' repo and put it under the same directory where you have the 'tutorial.ipynb' jupyter notebook.
 
 ```
 git clone https://github.com/hammaad2002/ASRAdversarialAttacks.git
@@ -59,17 +56,17 @@ git clone https://github.com/hammaad2002/CRDNN_Model.git
 1. FGSM Attack (not very successful)
 2. BIM Attack (successful)
 
-The jupyter notebook large reuses the instruction from the **Adversarial Attack on ASR Models** code. It's not perfect but can serve as a working code for kicking off the project.
+The jupyter notebook large reuses the instruction from the **Adversarial Attack on ASR Models** code. It can serve as a starting code for kicking off the project.
 
-### Homework for you (Nov 4, 2024):
+
+
+### Homework for you:
 
 1. **Reproduce** the above steps to make sure each of you can run the jupyter code.
-2. **Create a github repo** with each of you as contributors for developing your project. You can start by folking the *Adversarial Attack on ASR Models* repo.
-3. Read, understand, and **present** the methdology of two main Adversarial Attacks:
+2. **Create a github repo** with each of you as contributors for developing your project. You can start by folking this repo.
+3. Read, understand, and **present in detail** the methdology of two main Adversarial Attacks (need to explain the math part):
    1. (Fast Gradient Sign Method (FGSM) , first proposed in this paper: Goodfellow, Ian J. ["Explaining and harnessing adversarial examples." *arXiv preprint arXiv:1412.6572* (2014).](https://arxiv.org/pdf/1412.6572)  
    2. Basic Iterative Method (BIM), first proposed in this paper: Kurakin, Alexey, Ian J. Goodfellow, and Samy Bengio. ["Adversarial examples in the physical world." *Artificial intelligence safety and security*. Chapman and Hall/CRC, 2018. 99-112.](https://arxiv.org/pdf/1607.02533)
-4. Play with the **Torchaudio** toolkit and get familar with the Speech-to-Text process.
-
-**Torchaudio** provides all kinds of pretrained models, datasets for automatic speech recognition application. Below is a beginner-tutorial FYI: https://pytorch.org/audio/master/tutorials/speech_recognition_pipeline_tutorial.html#sphx-glr-tutorials-speech-recognition-pipeline-tutorial-py
+4. Play with the **Torchaudio** toolkit and get familar with the Speech-to-Text process. **Torchaudio** provides all kinds of pretrained models, datasets for automatic speech recognition application. Below is a beginner-tutorial FYI: https://pytorch.org/audio/master/tutorials/speech_recognition_pipeline_tutorial.html#sphx-glr-tutorials-speech-recognition-pipeline-tutorial-py
 
  
