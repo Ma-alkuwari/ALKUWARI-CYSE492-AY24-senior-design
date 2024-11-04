@@ -51,7 +51,7 @@ git clone https://github.com/hammaad2002/CRDNN_Model.git
 
 
 
-#### 3. Run the jupyter Notebook, which contains two adversarial attacks:
+#### 3. Run the jupyter Notebook 'tutorial.ipynb', which contains two adversarial attacks:
 
 1. FGSM Attack (not very successful)
 2. BIM Attack (successful)
