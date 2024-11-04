@@ -1,7 +1,5 @@
-# CYSE492-AY24-senior-design
-Code for GMU CYSE 492 Senior Design
-
-
+# CYSE492-AY24-Senior-Design
+ 
 
 We will build our design project on this gighub repo:   **Adversarial Attack on ASR Models**
 
