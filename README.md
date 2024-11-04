@@ -1,5 +1,5 @@
 # CYSE492-AY24-Senior-Design
- 
+
 
 We will build our design project on this gighub repo:   **Adversarial Attack on ASR Models**
 
@@ -61,7 +61,7 @@ git clone https://github.com/hammaad2002/CRDNN_Model.git
 
 The jupyter notebook large reuses the instruction from the **Adversarial Attack on ASR Models** code. It's not perfect but can serve as a working code for kicking off the project.
 
-#### 4. Homework for you (Nov 4, 2024):
+### Homework for you (Nov 4, 2024):
 
 1. **Reproduce** the above steps to make sure each of you can run the jupyter code.
 2. **Create a github repo** with each of you as contributors for developing your project. You can start by folking the *Adversarial Attack on ASR Models* repo.
